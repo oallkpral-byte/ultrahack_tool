@@ -19,7 +19,7 @@ jobs:
       
       - name: Build EXE
         run: |
-          pyinstaller --onefile --noconsole --name "UltraHack_Tool" ultrahack_tool.py
+          pyinstaller --onefile --name "UltraHack_Tool" ultrahack_tool.py
       
       - name: Upload artifact
         uses: actions/upload-artifact@v4
